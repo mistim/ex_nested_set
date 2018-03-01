@@ -1,6 +1,6 @@
-defmodule ExNestedSet do
+defmodule NestedSets do
   @moduledoc """
-  Documentation for ExNestedSet.
+  Documentation for NestedSets.
   """
 
   @doc """
@@ -8,11 +8,13 @@ defmodule ExNestedSet do
 
   ## Examples
 
-      iex> ExNestedSet.hello
+      iex> NestedSets.hello
       :world
 
   """
   def hello do
     :world
   end
+
+
 end

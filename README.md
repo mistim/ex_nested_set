@@ -1,21 +1,21 @@
-# ExNestedSet
+# NestedSets
 
 **TODO: Add description**
 
 ## Installation
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `ex_nested_set` to your list of dependencies in `mix.exs`:
+by adding `nested_sets` to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
   [
-    {:ex_nested_set, "~> 0.1.0"}
+    {:nested_sets, "~> 0.1.0"}
   ]
 end
 ```
 
 Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/ex_nested_set](https://hexdocs.pm/ex_nested_set).
+be found at [https://hexdocs.pm/nested_sets](https://hexdocs.pm/nested_sets).
 

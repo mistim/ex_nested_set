@@ -1,5 +1,5 @@
-defmodule Mix.Tasks.NestedSet.New do
-	@shortdoc "Nested Set"
+defmodule Mix.Tasks.NestedSets.Gen.Schema do
+	@shortdoc "Nested Sets"
 
 	@moduledoc """
 	"""
@@ -24,7 +24,7 @@ defmodule Mix.Tasks.NestedSet.New do
 
   @doc false
   def validate_args!([schema, table]) do
-    [schema, table, "name:string", "level:integer", "left:integer", "right:integer"]
+    [schema, table, "name:string", "level:integer", "left:integer", "right:integer", "parent_id:integer"]
   end
   def validate_args!([_schema]) do
     raise_with_help "Invalid arguments"
