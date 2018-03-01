@@ -24,7 +24,7 @@ defmodule Mix.Tasks.NestedSets.Gen.Schema do
 
   @doc false
   def validate_args!([schema, table]) do
-    [schema, table, "name:string", "level:integer", "left:integer", "right:integer", "parent_id:integer"]
+    [schema, table, "name:string", "level:integer", "left_key:integer", "right_key:integer", "parent_id:integer"]
   end
   def validate_args!([_schema]) do
     raise_with_help "Invalid arguments"
